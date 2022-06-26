@@ -1,0 +1,12 @@
+F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Models\bin\Debug\net5.0\EmployeeManagement.Models.deps.json
+F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Models\bin\Debug\net5.0\EmployeeManagement.Models.dll
+F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Models\bin\Debug\net5.0\ref\EmployeeManagement.Models.dll
+F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Models\bin\Debug\net5.0\EmployeeManagement.Models.pdb
+F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.csproj.AssemblyReference.cache
+F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.AssemblyInfoInputs.cache
+F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.AssemblyInfo.cs
+F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.csproj.CoreCompileInputs.cache
+F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.dll
+F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net5.0\ref\EmployeeManagement.Models.dll
+F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.pdb
