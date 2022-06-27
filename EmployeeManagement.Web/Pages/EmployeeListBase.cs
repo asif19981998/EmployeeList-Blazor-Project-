@@ -1,4 +1,5 @@
 ﻿using EmployeeManagement.Models;
+using EmployeeManagement.Web.Services;
 using Microsoft.AspNetCore.Components;
 using System;
 using System.Collections.Generic;
@@ -10,12 +11,47 @@ namespace EmployeeManagement.Web.Pages
 {
     public class EmployeeListBase:ComponentBase
     {
+        [Inject]
+        public IEmployeeService EmployeeService { get; set; }
+
+        public bool ShowFooter { get; set; } = true;
         public IEnumerable<Employee> Employees { get; set; }
 
-        protected override Task OnInitializedAsync()
+        protected string ButtonText { get; set; } = "Hide Footer";
+        protected string CssClass { get; set; } = null;
+        protected  override async Task OnInitializedAsync()
         {
-            LoadEmployees();
-            return base.OnInitializedAsync();
+            //LoadEmployees();
+            //return base.OnInitializedAsync();
+          Employees =  (await EmployeeService.GetEmployees()).ToList();
+        }
+
+        protected void Button_Click()
+        {
+            if (ButtonText == "Hide Footer")
+            {
+                ButtonText = "Show Footer";
+                CssClass = "HideFooter";
+            }
+            else
+            {
+                CssClass = null;
+                ButtonText = "Hide Footer";
+            }
+        }
+
+        protected int SelectedEmployeesCount { get; set; } = 0;
+
+        protected void EmployeeSelectionChanged(bool isSelected)
+        {
+            if (isSelected)
+            {
+                SelectedEmployeesCount++;
+            }
+            else
+            {
+                SelectedEmployeesCount--;
+            }
         }
 
         private void LoadEmployees()

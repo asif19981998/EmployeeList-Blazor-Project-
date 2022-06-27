@@ -10,3 +10,15 @@ F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManageme
 F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.dll
 F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net5.0\ref\EmployeeManagement.Models.dll
 F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.pdb
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Models\bin\Debug\net5.0\EmployeeManagement.Models.deps.json
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Models\bin\Debug\net5.0\EmployeeManagement.Models.dll
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Models\bin\Debug\net5.0\ref\EmployeeManagement.Models.dll
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Models\bin\Debug\net5.0\EmployeeManagement.Models.pdb
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.csproj.AssemblyReference.cache
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.AssemblyInfoInputs.cache
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.AssemblyInfo.cs
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.csproj.CoreCompileInputs.cache
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.dll
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Models\obj\Debug\net5.0\ref\EmployeeManagement.Models.dll
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.pdb
