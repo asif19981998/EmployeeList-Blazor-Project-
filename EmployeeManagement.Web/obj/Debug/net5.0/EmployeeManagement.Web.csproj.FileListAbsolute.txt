@@ -152,3 +152,6 @@ E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\Employe
 E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Web\obj\Debug\net5.0\ref\EmployeeManagement.Web.dll
 E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Web\obj\Debug\net5.0\EmployeeManagement.Web.pdb
 E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Web\obj\Debug\net5.0\EmployeeManagement.Web.genruntimeconfig.cache
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Web\obj\Debug\net5.0\RazorDeclaration\Pages\Test\Test.razor.g.cs
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Web\obj\Debug\net5.0\Razor\Pages\Test\Test.razor.g.cs
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Web\obj\Debug\net5.0\RazorDeclaration\Pages\EditEmployee.razor.g.cs
