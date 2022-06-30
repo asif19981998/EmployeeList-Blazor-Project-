@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement.Models",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement.Web", "EmployeeManagement.Web\EmployeeManagement.Web.csproj", "{B9F0C5DD-69ED-495E-83A3-33EFD4961B07}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement.Api", "EmployeeManagement.Api\EmployeeManagement.Api.csproj", "{95C3697A-0228-47F3-AFB3-8F5978328F17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RakibTech.Components", "RakibTech.Components\RakibTech.Components.csproj", "{F708AAC4-C68B-4AED-80A0-0F96D492B95B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B9F0C5DD-69ED-495E-83A3-33EFD4961B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9F0C5DD-69ED-495E-83A3-33EFD4961B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9F0C5DD-69ED-495E-83A3-33EFD4961B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C3697A-0228-47F3-AFB3-8F5978328F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C3697A-0228-47F3-AFB3-8F5978328F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C3697A-0228-47F3-AFB3-8F5978328F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C3697A-0228-47F3-AFB3-8F5978328F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F708AAC4-C68B-4AED-80A0-0F96D492B95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F708AAC4-C68B-4AED-80A0-0F96D492B95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F708AAC4-C68B-4AED-80A0-0F96D492B95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F708AAC4-C68B-4AED-80A0-0F96D492B95B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
