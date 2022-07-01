@@ -44,9 +44,13 @@ namespace EmployeeManagement.Api.Controllers
         }
 
         // PUT api/<EmployeeController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut]
+        public  Employee Put(Employee employee)
         {
+             _db.employees.Update(employee);
+             bool isAdded = _db.SaveChanges() > 0;
+            return employee;
+
         }
 
         // DELETE api/<EmployeeController>/5

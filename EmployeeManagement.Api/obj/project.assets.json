@@ -6052,19 +6052,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RAKIB\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Rakib,IT\\P. Project\\Blazor Project\\EmployeeManagement.Models\\EmployeeManagement.Api\\EmployeeManagement.Api.csproj",
+      "projectUniqueName": "E:\\C Sharp Practise Projects\\Blazor Project\\EmployeeList-Blazor-Project-\\EmployeeManagement.Api\\EmployeeManagement.Api.csproj",
       "projectName": "EmployeeManagement.Api",
-      "projectPath": "F:\\Rakib,IT\\P. Project\\Blazor Project\\EmployeeManagement.Models\\EmployeeManagement.Api\\EmployeeManagement.Api.csproj",
-      "packagesPath": "C:\\Users\\RAKIB\\.nuget\\packages\\",
-      "outputPath": "F:\\Rakib,IT\\P. Project\\Blazor Project\\EmployeeManagement.Models\\EmployeeManagement.Api\\obj\\",
+      "projectPath": "E:\\C Sharp Practise Projects\\Blazor Project\\EmployeeList-Blazor-Project-\\EmployeeManagement.Api\\EmployeeManagement.Api.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "E:\\C Sharp Practise Projects\\Blazor Project\\EmployeeList-Blazor-Project-\\EmployeeManagement.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\RAKIB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6078,8 +6078,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Rakib,IT\\P. Project\\Blazor Project\\EmployeeManagement.Models\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {
-              "projectPath": "F:\\Rakib,IT\\P. Project\\Blazor Project\\EmployeeManagement.Models\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj"
+            "E:\\C Sharp Practise Projects\\Blazor Project\\EmployeeList-Blazor-Project-\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {
+              "projectPath": "E:\\C Sharp Practise Projects\\Blazor Project\\EmployeeList-Blazor-Project-\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj"
             }
           }
         }
@@ -6131,7 +6131,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

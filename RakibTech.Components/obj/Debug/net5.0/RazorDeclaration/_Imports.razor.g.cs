@@ -13,7 +13,7 @@ namespace RakibTech.Components
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\RakibTech.Components\_Imports.razor"
+#line 1 "E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\RakibTech.Components\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default

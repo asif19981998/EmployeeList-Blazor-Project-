@@ -17,7 +17,7 @@ namespace EmployeeManagement.Web.Models
         [Required]
         public string LastName { get; set; }
         [EmailAddress]
-        [EmailDomainValidator(AllowedDomain="rakib@gmail.com")]
+        //[EmailDomainValidator(AllowedDomain="rakib@gmail.com")]
         public string Email { get; set; }
         [CompareProperty("Email",ErrorMessage ="Email and Confirm Mail did not match")]
         public string ConfirmEmail { get; set; }

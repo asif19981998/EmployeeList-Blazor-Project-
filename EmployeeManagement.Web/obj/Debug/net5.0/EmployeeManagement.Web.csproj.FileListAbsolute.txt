@@ -206,3 +206,11 @@ F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManageme
 F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Web\obj\Debug\net5.0\Razor\Pages\EmployeeDetails.razor.g.cs
 F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Web\obj\Debug\net5.0\Razor\Pages\Test\Test.razor.g.cs
 F:\Rakib,IT\P. Project\Blazor Project\EmployeeManagement.Models\EmployeeManagement.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Web\obj\Debug\net5.0\Razor\Pages\EditEmployee.razor.g.cs
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Web\bin\Debug\net5.0\AutoMapper.dll
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Web\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Web\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Web\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Web\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\C Sharp Practise Projects\Blazor Project\EmployeeList-Blazor-Project-\EmployeeManagement.Web\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

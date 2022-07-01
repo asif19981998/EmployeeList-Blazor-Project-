@@ -5,7 +5,7 @@
 
 <h3>Edit Employee</h3>
 <hr />
-<EditForm Model="@EditEmployeeModel">
+<EditForm Model="@EditEmployeeModel" OnValidSubmit="HandleValidSubmit">
     <DataAnnotationsValidator />
     <ValidationSummary />
 
@@ -49,7 +49,7 @@
             <ValidationMessage For="@(() => EditEmployeeModel.ConfirmEmail)" />
         </div>
     </div>
-    
+
     <div class="form-group row">
         <label for="department" class="col-sm-2 col-form-label">
             Department
@@ -84,6 +84,7 @@
             <InputDate @bind-Value="EditEmployeeModel.DateOfBrith" class="form-control" />
         </div>
     </div>
+    <button class="btn btn-primary" type="submit">Submit</button>
 </EditForm>
 
 
