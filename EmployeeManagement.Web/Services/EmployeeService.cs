@@ -17,6 +17,16 @@ namespace EmployeeManagement.Web.Services
             _httpClient = httpClient;
         }
 
+        public async  Task<Employee> CreateEmployee(Employee newEmployee)
+        {
+            return await _httpClient.PostJsonAsync<Employee>("api/employee", newEmployee);
+        }
+
+        public async Task<Employee> EditEmployee(Employee employee)
+        {
+            return await _httpClient.PutJsonAsync<Employee>("api/employee", employee);
+        }
+
         public async Task<Employee> GetEmployee(int id)
         {
             return await _httpClient.GetJsonAsync<Employee>($"api/employee/{id}");

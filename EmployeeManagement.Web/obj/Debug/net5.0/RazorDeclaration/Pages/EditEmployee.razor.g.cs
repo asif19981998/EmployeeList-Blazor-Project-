@@ -90,6 +90,7 @@ using EmployeeManagement.Models;
 #line hidden
 #nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/editEmployee/{id}")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/editEmployee")]
     public partial class EditEmployee : EditEmployeeBase
     {
         #pragma warning disable 1998

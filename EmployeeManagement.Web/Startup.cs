@@ -1,4 +1,5 @@
 
+using EmployeeManagement.Web.Models;
 using EmployeeManagement.Web.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
@@ -37,7 +38,7 @@ namespace EmployeeManagement.Web
             {
                 client.BaseAddress = new Uri("https://localhost:44306/");
             });
-
+            services.AddAutoMapper(typeof(EmployeeProfile));
 
         }
 

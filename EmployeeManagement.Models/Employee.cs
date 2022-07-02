@@ -13,7 +13,7 @@ namespace EmployeeManagement.Models
         [Required]
         public string LastName { get; set; }
         [EmailAddress]
-        [EmailDomainValidator(AllowedDomain ="rakib@gmail.com")]
+        //[EmailDomainValidator(AllowedDomain ="rakib@gmail.com")]
         public string Email { get; set; }
         public DateTime DateOfBrith { get; set; }
         public Gender Gender { get; set; }
