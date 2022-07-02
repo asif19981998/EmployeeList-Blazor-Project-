@@ -1,9 +1,11 @@
 ﻿@page "/editEmployee/{id}"
+@page "/editEmployee"
+
 @inherits EditEmployeeBase
 
 
 
-<h3>Edit Employee u</h3>
+<h3>@PageHeaderText</h3>
 <hr />
 <EditForm Model="@EditEmployeeModel" OnValidSubmit="HandleValidSubmit">
     <DataAnnotationsValidator />
@@ -85,6 +87,7 @@
         </div>
     </div>
     <button class="btn btn-primary" type="submit">Submit</button>
+    <button class="btn btn-primary" type="button" @onclick="Delete_Click">Delete</button>
 </EditForm>
 
 

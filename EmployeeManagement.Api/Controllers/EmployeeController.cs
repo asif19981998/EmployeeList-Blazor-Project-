@@ -39,8 +39,11 @@ namespace EmployeeManagement.Api.Controllers
 
         // POST api/<EmployeeController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public Employee Post(Employee employee)
         {
+            _db.employees.Add(employee);
+            bool isAdded = _db.SaveChanges() > 0;
+            return employee;
         }
 
         // PUT api/<EmployeeController>/5
@@ -54,9 +57,14 @@ namespace EmployeeManagement.Api.Controllers
         }
 
         // DELETE api/<EmployeeController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete("{id:int}")]
+        public Employee Delete(int id)
         {
+            var employeeToDelete = _db.employees.FirstOrDefault(e => e.EmployeeId == id);
+            _db.employees.Remove(employeeToDelete);
+            _db.SaveChanges();
+            return employeeToDelete;
+           
         }
     }
 }
