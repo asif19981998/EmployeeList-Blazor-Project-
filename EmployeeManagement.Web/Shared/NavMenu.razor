@@ -11,8 +11,11 @@
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
                 <span class="oi oi-home" aria-hidden="true"></span> Home
             </NavLink>
-            <NavLink class="nav-link" href="/editEmployee" Match="NavLinkMatch.All">
+            <NavLink class="nav-link" href="/editEmployee" Match="NavLinkMatch.All" @onclick="HandleClick ">
                 <span class="oi oi-home" aria-hidden="true"></span> Create
+            </NavLink>
+            <NavLink class="nav-link" href="/editEmployee/1" Match="NavLinkMatch.All"  >
+                <span class="oi oi-home" aria-hidden="true"></span> Edit
             </NavLink>
         </li>
        
@@ -24,8 +27,16 @@
 
     private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
+    @inject NavigationManager NavigationManager;
+
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
+    }
+
+    private void HandleClick()
+    {
+        NavigationManager.NavigateTo("editEmployee", true);
+
     }
 }

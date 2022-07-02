@@ -37,5 +37,10 @@ namespace EmployeeManagement.Web.Services
             return await _httpClient.GetJsonAsync<Employee[]>("api/employee");
             
         }
+
+        public async Task DeleteEmployee(int id)
+        {
+            await _httpClient.DeleteAsync($"api/employee/{id}");
+        }
     }
 }

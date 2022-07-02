@@ -13,6 +13,7 @@ namespace EmployeeManagement.Web.Pages
     public class EditEmployeeBase:ComponentBase
     {
         private  Employee Employee { get; set; } = new Employee();
+        public string PageHeaderText { get; set; }
 
         [Inject] public IEmployeeService EmployeeService { get; set; }
 
@@ -34,10 +35,12 @@ namespace EmployeeManagement.Web.Pages
             
             if(employeeId != 0)
             {
+                PageHeaderText = "Edit Employee";
                 Employee = await EmployeeService.GetEmployee(int.Parse(Id));
             }
             else
             {
+                PageHeaderText = "Create Employee";
                 Employee = new Employee
                 {
                     DepartmentId = 1,
@@ -69,6 +72,12 @@ namespace EmployeeManagement.Web.Pages
             {
                 NavigationManager.NavigateTo("/");
             }
+        }
+
+        protected async Task Delete_Click()
+        {
+            await EmployeeService.DeleteEmployee(Employee.EmployeeId);
+            NavigationManager.NavigateTo("/");
         }
     }
 }
